@@ -16,16 +16,15 @@
 //
 // Bump CACHE_NAME whenever you deploy a change, to drop old cached files
 // and pick up new ones.
-const CACHE_NAME = 'attendance-dashboard-shell-v1';
+const CACHE_NAME = 'attendance-dashboard-shell-v2';
 
 // Shared, known-good files to precache on install. Individual HTML pages
 // are cached automatically the first time each one is visited (see the
 // fetch handler below), so they don't need to be listed here.
 const PRECACHE_FILES = [
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
